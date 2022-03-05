@@ -1,0 +1,58 @@
+.tagOff {
+    font-size: 12px;
+    /* text-decoration: line-through;  */
+    /* background: #d4d3d3;  */
+    text-align:right;
+}
+.tagOn {
+    font-size: 14px;
+    background: #37b4fc59; 
+}
+
+.tagSignP {
+    font-family:"Courier New", Courier, monospace;
+    background: #37b4fc59; 
+}
+.tagSignN {
+    font-family:"Courier New", Courier, monospace;
+    background: yellow; 
+}
+.tagOk {
+    font-size: 12px;
+    color: blue; 
+}
+.tagGrey {
+    font-size: 12px;
+    color: grey; 
+}
+#addInfo {
+    /* position: relative;
+    top: 50%;
+    transform: translateY(-50%);     */
+    z-index: 100;
+    position: fixed;
+    top: 18%;
+    left: 35%;
+    overflow-wrap: break-word !important;
+    max-width: 60%;    
+    max-height: 80%;    
+    padding: 5px 5px;
+    border-radius: 5px;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    white-space: pre-wrap;
+    /* font-family: sans-serif;
+    white-space: nowrap; */
+}
+#close {
+    /* float: right; */
+    display: inline-block;
+    padding:0px 5px;
+    background:#000;
+    cursor: pointer
+}
+k3 {
+    color:yellow;
+}

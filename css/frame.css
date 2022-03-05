@@ -1,0 +1,158 @@
+body {
+    background: #ccc;
+    font-family: 'Roboto', sans-serif;
+}
+[class^="hmTabs"]  {
+    display: flex;
+    flex-wrap: wrap;
+    /* max-width: 600px; */
+    margin: 0px auto;
+    padding: 1px;
+}
+[class^="hmTabs"] input[type="radio"] {
+    display: none;
+}
+[class^="hmTabs"] label {
+    padding: 5px;
+    background: #e2e2e2;
+    font-weight: bold;
+}
+[class^="hmTabs"] .tab {
+    width: 100%;
+    padding: 5px;
+    background: #fff;
+    order: 1;
+    display: none;                                                /* hide */
+}
+[class^="hmTabs"] .tab h2 {
+    font-size: 3em;
+}
+
+[class^="hmTabs"] input[type='radio']:checked + label + .tab {    /* show label & tab */
+    display: grid;
+}
+[class^="hmTabs"] input[type="radio"]:checked + label {           /* change colors  of label */
+    background: #fff;
+    color:blue;
+}
+
+.hmTab {
+    display: grid;
+    grid-template-columns:  auto auto;                            /* side | main */
+    grid-gap: 2px;
+    /* grid-template-rows: 60px auto 60px; */
+    /* grid-template-areas: "hd hd"
+                        "sidebar main"
+                        "footer footer";     */
+    /* grid-template-columns: repeat(10, 1fr);
+    grid-template-areas : "a a a b b b b b b b"                         */
+}    
+.hmTab .asideV {                                                  /* up[a b] / down */
+    background: white;
+    width: max-content; 
+    /* height:100%;  */
+    resize: both; 
+    overflow: auto;
+    /* border: 1px solid black; */
+    min-width: 0px;
+    max-width: 50vw;
+    /* min-height: 80vh; */
+    max-height: 90vh;
+    display: grid;
+    grid-template-rows:  auto auto 15px;
+    /* grid-template-columns:  auto auto 15px; */
+    grid-gap: 2px;        
+}
+.hmTab .asideV .up {
+    background: white;
+    /* height:100%;  */
+    /* max-height: 600px; */
+    resize: vertical; 
+    overflow: auto;  
+    display: grid;
+    grid-template-columns:  auto auto;
+    grid-gap: 1px
+}  
+.hmTab .asideV .up .a{
+    background: lightgray;
+    width: max-content;
+    min-width: 330px;
+    /* height:100%;  */
+    resize: horizontal; 
+    overflow: auto;  
+}     
+.hmTab .asideV .up .b {
+    background: lemonchiffon;
+    /* height:100%;  */
+    min-width: 330px;
+    min-height: 400px;
+    max-height: 700px;
+    overflow: auto;  
+    /* overflow: scroll; */
+}     
+.hmTab .asideV .down {
+    grid-column:1 /-1;
+    background: lightcyan;
+    height:auto; 
+    /* align-items: end; */
+    resize: vertical; 
+    overflow: auto;  
+}   
+.hmTab .asideH {                                                 /* left[a b] | right */
+    background: white;
+    width: 600px; 
+    /* height:100%;  */
+    resize: both; 
+    overflow: auto;
+    /* border: 1px solid black; */
+    min-width: 0px;
+    max-width: 50vw;
+    /* min-height: 80vh; */
+    max-height: 90vh;
+    display: grid;
+    /* grid-template-rows:  auto auto 15px; */
+    grid-template-columns:  auto auto 15px;
+    grid-gap: 2px;        
+}
+.hmTab .asideH .left {
+    background: white;
+    width: 350px;
+    resize: horizontal; 
+    overflow: auto;  
+    display: grid;
+    grid-template-rows:  auto auto 15px;
+    grid-gap: 1px
+}  
+.hmTab .asideH .left .a{
+    background: lightgray;
+    height: 50vh;
+    resize: vertical; 
+    overflow: auto;  
+}     
+.hmTab .asideH .left .b {
+    background: lightsteelblue;
+    resize: vertical; 
+    overflow: auto;  
+}     
+.hmTab .asideH .right {
+    /* grid-row:1 /-1; */
+    background: lightpink;
+    resize: both; 
+    overflow: auto;  
+}     
+
+.hmTab .main {
+    background: lightpink;
+    height:100%; 
+    resize: horizontal; 
+    overflow: auto;  
+    /* border: 1px solid black; */
+}
+summary {
+    background-color:lightsteelblue;
+    font-weight: bold;
+}
+.hide tr>*:nth-child(4), .hide tr>*:nth-child(5), .hide tr>*:nth-child(6), .hide tr>*:nth-child(7), .hide tr>*:nth-child(8) {
+    display: none;
+}
+  
