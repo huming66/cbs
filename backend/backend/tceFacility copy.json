@@ -1,0 +1,411 @@
+{
+    "ttttttt": {
+        "data": {
+            "|Line|240kV|D/C|2x795|New": {
+                "uCost": 1500000,
+                "qty": 1
+            },
+            "|Line|240kV|S/C|2x795|New": {
+                "uCost": 800000,
+                "qty": 1
+            },
+            "|Substation|Transformer|138/25kV|25MVA|Equipment": {
+                "uCost": 1300000,
+                "qty": 1
+            },
+            "|Substation|Transformer|240/138kV|400MVA|New": {
+                "uCost": 5375168,
+                "qty": 1
+            },
+            "|Substation|Transformer|240/138kV|400MVA|Equipment": {
+                "uCost": 3065949,
+                "qty": 1
+            },
+            "|Line|138kV|S/C|1x477|New (0~1km)": {
+                "uCost": 1348870,
+                "qty": 1
+            },
+            "|Line|138kV|S/C|1x477|New (1~10km)": {
+                "uCost": 799725,
+                "qty": 1
+            },
+            "|Line|138kV|S/C|1x477|New (10+km)": {
+                "uCost": 433984,
+                "qty": 1
+            },
+            "|Line|138kV|S/C|2x477|New (0~1km)": {
+                "uCost": 1348870,
+                "qty": 1
+            },
+            "|Line|138kV|S/C|2x477|New (1~10km)": {
+                "uCost": 799725,
+                "qty": 1
+            },
+            "|Line|138kV|S/C|2x477|New (10+km)": {
+                "uCost": 433984,
+                "qty": 1
+            },
+            "|Line|138kV|S/C|1x266|New (0~1km)": {
+                "uCost": 1291933,
+                "qty": 1
+            },
+            "|Line|138kV|S/C|1x266|New (1~10km)": {
+                "uCost": 765968,
+                "qty": 1
+            },
+            "|Line|138kV|S/C|1x266|New (10+km)": {
+                "uCost": 415666,
+                "qty": 1
+            },
+            "|Line|138kV|D/C|1x477|New (0~1km)": {
+                "qty": 1
+            },
+            "|Line|138kV|D/C|1x477|New (1~10km)": {
+                "uCost": 1748732,
+                "qty": 1
+            },
+            "|Line|138kV|D/C|1x477|New (10+km)": {
+                "uCost": 1041775,
+                "qty": 1
+            },
+            "|Line|240kV|S/C|2x477|New (1~10km)": {
+                "uCost": 2001445,
+                "qty": 1
+            },
+            "|Line|240kV|S/C|2x477|New (0~1km)": {
+                "qty": 1
+            },
+            "|Line|240kV|S/C|2x477|New (10+km)": {
+                "uCost": 945808,
+                "qty": 1
+            },
+            "|Line|240kV|S/C|2(1)x795|New (0~1km)": {
+                "qty": 1
+            },
+            "|Line|240kV|S/C|2(1)x795|New (1~10km)": {
+                "uCost": 1192123,
+                "qty": 1
+            },
+            "|Line|240kV|S/C|2(1)x795|New (10+km)": {
+                "uCost": 951140,
+                "qty": 1
+            },
+            "|Line|240kV|D/C|2x795|New (0~1km)": {
+                "qty": 1
+            },
+            "|Line|240kV|D/C|2x795|New (1~10km)": {
+                "uCost": 1167599,
+                "qty": 1
+            },
+            "|Line|240kV|D/C|2x795|New (10+km)": {
+                "qty": 1
+            },
+            "|Line|240kV|D/C single side strung|2x795|New (0~1km)": {
+                "qty": 1
+            },
+            "|Line|240kV|D/C single side strung|2x795|New (1~10km)": {
+                "qty": 1
+            },
+            "|Line|240kV|D/C single side strung|2x795|New (10+km)": {
+                "uCost": 1665561,
+                "qty": 1
+            },
+            "|Line|240kV|D/C|2x1033|New": {
+                "uCost": 2439694,
+                "qty": 1
+            },
+            "|Line|500kV|S/C|2X1033|New": {
+                "qty": 1
+            }
+        }
+    },
+    "T-tap-P1567-line": {
+        "data": {
+            "|Line|240kV_Standard|S/C|2(1)x795|New (0~1km)": {
+                "uCost": 2384246,
+                "qty": 1.15,
+                "note": ""
+            },
+            "|Telecom|Tower": {
+                "qty": 1
+            }
+        },
+        "info": " 240kV "
+    },
+    "T-tap-P1567-sub": {
+        "data": {
+            "|Substation|Air Break|240kV|1050kV|New": {
+                "uCost": 73617,
+                "qty": 3,
+                "note": ""
+            },
+            "|Substation|Site Development": {
+                "uCost": 260,
+                "qty": 400,
+                "note": ""
+            },
+            "|Substation|Protection & Control|relays/modules|pre-fab|New": {
+                "uCost": 50553,
+                "qty": 4,
+                "note": ""
+            },
+            "|Substation|Line Termination|240kV |1050kV|New": {
+                "uCost": 526092,
+                "qty": 1
+            },
+            "|Substation|Circuit Breaker|240kV|1050kV|New": {
+                "uCost": 441410,
+                "qty": 1
+            },
+            "|Substation|All sub commissioning|All sub commissioning|All sub commissioning|New": {
+                "uCost": 1000,
+                "qty": 45,
+                "note": ""
+            },
+            "|Telecom|Tower": {
+                "qty": 1
+            },
+            "|Substation|Control cables|AWG #10 and below|pre-fab|Equipment": {
+                "uCost": 11,
+                "qty": 600,
+                "note": ""
+            },
+            "|Substation|Control cables|AWG #10 and below|trenching/closing|Installation": {
+                "uCost": 53,
+                "qty": 50,
+                "note": ""
+            },
+            "|Substation|Main Bus|240kV |4000A|New": {
+                "uCost": 21375,
+                "qty": 1
+            }
+        },
+        "info": " 240kV "
+    },
+    "In-out-P1567-line": {
+        "data": {
+            "|Telecom|Tower": {
+                "qty": 1
+            },
+            "|Line|240kV_Standard|S/C|2(1)x795|New (0~1km)": {
+                "uCost": 2384246,
+                "qty": 0.6,
+                "note": ""
+            }
+        },
+        "info": " 240kV "
+    },
+    "In-out-P1567-sub": {
+        "data": {
+            "|Substation|Air Break|240kV|1050kV|New": {
+                "uCost": 73617,
+                "qty": 14,
+                "note": ""
+            },
+            "|Substation|Site Development": {
+                "uCost": 260,
+                "qty": 10000,
+                "note": ""
+            },
+            "|Substation|Protection & Control|relays/modules|pre-fab|New": {
+                "uCost": 50553,
+                "qty": 8,
+                "note": ""
+            },
+            "|Substation|Line Termination|240kV |1050kV|New": {
+                "uCost": 526092,
+                "qty": 2,
+                "note": ""
+            },
+            "|Substation|Circuit Breaker|240kV|1050kV|New": {
+                "uCost": 441410,
+                "qty": 6,
+                "note": ""
+            },
+            "|Substation|All sub commissioning|All sub commissioning|All sub commissioning|New": {
+                "uCost": 1000,
+                "qty": 270,
+                "note": ""
+            },
+            "|Telecom|Tower": {
+                "qty": 1
+            },
+            "|Substation|Main Bus|240kV |4000A|New": {
+                "uCost": 21375,
+                "qty": 4,
+                "note": ""
+            },
+            "|Substation|Control Building|4mx14m|pre-fab|New": {
+                "uCost": 448546,
+                "qty": 1
+            },
+            "|Substation|Control cables|AWG #10 and below|trenching/closing|Installation": {
+                "uCost": 53,
+                "qty": 200,
+                "note": ""
+            },
+            "|Substation|Control cables|AWG #10 and below|pre-fab|Equipment": {
+                "uCost": 11,
+                "qty": 4800,
+                "note": ""
+            },
+            "|Substation|Current Transformer|240kV|2000:1|New": {
+                "uCost": 59076,
+                "qty": 6,
+                "note": ""
+            },
+            "|Substation|Voltage Transformer|240kV|1050kV|New": {
+                "uCost": 45937,
+                "qty": 2,
+                "note": ""
+            },
+            "|Substation|Potential Transformer|240kV|1050kV|New": {
+                "uCost": 45937,
+                "qty": 2,
+                "note": ""
+            },
+            "|Substation|Protection relays/modules|Installation": {
+                "uCost": 16902,
+                "qty": 2,
+                "note": ""
+            },
+            "|Substation|Access road (7m)": {
+                "uCost": 1066,
+                "qty": 100,
+                "note": ""
+            },
+            "|Substation|Station Service|S.S transformer|75kVA|New": {
+                "uCost": 44036,
+                "qty": 1
+            }
+        },
+        "info": " 240kV "
+    },
+    "In-out-P1567-telecom": {
+        "data": {
+            "|Telecom|Tower": {
+                "qty": 1
+            },
+            "|Telecom|Equipment|Equipment/Building|New": {
+                "uCost": 58437,
+                "qty": 1,
+                "note": "per package"
+            },
+            "|Telecom|Fiber|New": {
+                "uCost": 29205,
+                "qty": 1
+            },
+            "|Telecom|Tower/Radio|Steel |New": {
+                "uCost": 121461,
+                "qty": 1,
+                "note": "30m standard"
+            }
+        },
+        "info": " 240kV "
+    },
+    "In-out-P1567-sub-test": {
+        "data": {
+            "|Telecom|Tower": {
+                "qty": 1
+            },
+            "|Substation|Station Service|S.S transformer|75kVA|New": {
+                "uCost": 44036,
+                "qty": 1
+            },
+            "|Substation|Circuit Breaker|240kV|1050kV|New": {
+                "uCost": 441410,
+                "qty": 6,
+                "note": ""
+            },
+            "|Substation|Line Termination|240kV |1050kV|New": {
+                "uCost": 526092,
+                "qty": 2,
+                "note": "one fo reach line"
+            },
+            "|Substation|Air Break|240kV|1050kV|New": {
+                "uCost": 73617,
+                "qty": 14,
+                "note": ""
+            },
+            "|Substation|Main Bus|240kV |4000A|New": {
+                "uCost": 21375,
+                "qty": 4,
+                "note": ""
+            },
+            "|Substation|Voltage Transformer|240kV|1050kV|New": {
+                "uCost": 45937,
+                "qty": 2,
+                "note": "one for each line"
+            },
+            "|Substation|Potential Transformer|240kV|1050kV|New": {
+                "uCost": 45937,
+                "qty": 2,
+                "note": "one for each side"
+            },
+            "|Substation|Control Building|4mx14m|pre-fab|New": {
+                "uCost": 448546,
+                "qty": 1
+            },
+            "|Substation|Current Transformer|240kV|2000:1|New": {
+                "uCost": 59076,
+                "qty": 6,
+                "note": ""
+            },
+            "|Substation|Protection & Control|relays/modules|pre-fab|New": {
+                "uCost": 50553,
+                "qty": 10,
+                "note": ""
+            },
+            "|Substation|Control cables|AWG #10 and below|trenching/closing|Installation": {
+                "uCost": 53,
+                "qty": 200,
+                "note": ""
+            },
+            "|Substation|Control cables|AWG #10 and below|pre-fab|Equipment": {
+                "uCost": 11,
+                "qty": 6000,
+                "note": ""
+            },
+            "|Substation|Access road (7m)": {
+                "uCost": 1066,
+                "qty": 100,
+                "note": "default distance"
+            },
+            "|Substation|Site Development": {
+                "uCost": 260,
+                "qty": 10000,
+                "note": "100mx100m"
+            },
+            "|Substation|All sub commissioning|All sub commissioning|All sub commissioning|New": {
+                "uCost": 1000,
+                "qty": 270,
+                "note": ""
+            }
+        },
+        "info": " 240kV "
+    },
+    "In-out-P1567-sub-telecom": {
+        "data": {
+            "|Telecom|Tower": {
+                "qty": 1
+            },
+            "|Substation|Station Service|S.S transformer|75kVA|New": {
+                "uCost": 44036,
+                "qty": 1
+            },
+            "|Telecom|Tower/Radio|Steel |New": {
+                "uCost": 121461,
+                "qty": 1
+            },
+            "|Telecom|Fiber|New": {
+                "uCost": 29205,
+                "qty": 1
+            },
+            "|Telecom|Equipment|Equipment/Building|New": {
+                "uCost": 58437,
+                "qty": 1
+            }
+        },
+        "info": " 240kV "
+    }
+}
